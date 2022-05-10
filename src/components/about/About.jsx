@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/me-about.png'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -23,24 +23,26 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>3+ Years of Self-Work</small>
             </article>
 
             <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
-              <small>200+ WorldWide</small>
+              <small>None Yet</small>
             </article>
 
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>80+ Completed Projects</small>
+              <small>10+ Completed Projects</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam officiis cupiditate illum quibusdam, eum, numquam atque fugiat autem inventore facere commodi odit dolore quae. Rerum velit nihil numquam quod atque?
+          I’m a student, working toward my degree and looking for ways to put my knowledge and skills to use.
+          I love playing games as well as creating them. Other passions of mine are web and software development.
+          While I do not have any previous real work experience, I got the taste of working in a lot of projects with all kind of technologies.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

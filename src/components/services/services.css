@@ -43,7 +43,8 @@
 
 .service__list-icon {
     color: var(--color-primary);
-    margin-top: 2px;
+    font-size: 1.2rem;
+    padding-top: 2px;
 }
 
 .service__list p {
@@ -54,7 +55,7 @@
 
 @media screen and (max-width: 1024px) {
     .services__container {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 2rem;
     }
 
