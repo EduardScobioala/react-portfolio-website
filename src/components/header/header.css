@@ -82,3 +82,15 @@ header {
         display: none;
     }
 }
+
+/* =============== MEDIA QUERIES (SMALLEST DEVICES) =============== */
+
+@media screen and (max-width: 400px) {
+    header {
+        height: 120vh;
+    }
+
+    .header__socials, .scroll__down {
+        display: none;
+    }
+}
